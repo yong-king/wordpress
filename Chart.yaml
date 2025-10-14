@@ -14,14 +14,15 @@ appVersion: 6.8.2
 dependencies:
 - condition: memcached.enabled
   name: memcached
-  repository: oci://registry-1.docker.io/bitnamicharts
+  # repository: oci://registry-1.docker.io/
+  repository: oci://registry.cn-hangzhou.aliyuncs.com/bitnamicharts
   version: 7.x.x
 - condition: mariadb.enabled
   name: mariadb
-  repository: oci://registry-1.docker.io/bitnamicharts
+  repository: oci://registry.cn-hangzhou.aliyuncs.com/bitnamicharts
   version: 21.x.x
 - name: common
-  repository: oci://registry-1.docker.io/bitnamicharts
+  repository: oci://registry.cn-hangzhou.aliyuncs.com/bitnamicharts
   tags:
   - bitnami-common
   version: 2.x.x
