@@ -13,7 +13,7 @@ apiVersion: v2
 appVersion: 1.6.39
 dependencies:
 - name: common
-  repository: https://charts.bitnami.com/bitnami
+  repository: oci://registry-1.docker.io/bitnami
   tags:
   - bitnami-common
   version: 2.x.x

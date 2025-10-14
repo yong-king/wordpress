@@ -15,14 +15,14 @@ dependencies:
 - condition: memcached.enabled
   name: memcached
   # repository: oci://registry-1.docker.io/
-  repository: oci://registry-1.docker.io/
+  repository: oci://registry-1.docker.io/bitnami
   version: 7.x.x
 - condition: mariadb.enabled
   name: mariadb
-  repository: oci://registry-1.docker.io/
+  repository: oci://registry-1.docker.io/bitnami
   version: 21.x.x
 - name: common
-  repository: oci://registry-1.docker.io/
+  repository: oci://registry-1.docker.io/bitnami
   tags:
   - bitnami-common
   version: 2.x.x
